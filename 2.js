@@ -29,7 +29,7 @@ function increment(){
 
     //stop the rect
     if(rectangle.x+60 > canvas.width){
-        rectangle.dx *= 0 ;
+        rectangle.x=20
     }
 
     requestAnimationFrame(increment);
